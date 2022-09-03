@@ -1,5 +1,7 @@
 version: 0.2
-
+env:
+  exported-variables:
+    - TF_VERSION
 phases:
   install:
     runtime-versions:
